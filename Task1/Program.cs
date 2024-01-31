@@ -8,14 +8,14 @@ class Program
     char [,] Array = new char[,]{{'a','b'},{'e','f'}};
 
     // метод вывода массива в строку
-    string result = CreateStringArray(Array);
+    string result = Create_String_Array(Array);
 
     // Вывод результата
     Console.WriteLine(result);
 
    }
    // метод создания строки из массива
-   public static string CreateStringArray(char[,]array)
+   public static string Create_String_Array(char[,]array)
    {
     string result = "";
     for ( int i = 0; i < array.GetLength(0); i++)
